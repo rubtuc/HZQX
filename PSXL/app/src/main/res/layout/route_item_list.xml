@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.app.AlertController.RecycleListView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!-- 这是显示行星图片的图像视图 -->
+    <ImageView
+        android:id="@+id/iv_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--面霸面馆-->
+        <TextView
+            android:id="@+id/tv_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--※4.4-->
+            <TextView
+                android:id="@+id/tv_t2"
+                android:backgroundTintMode="src_atop"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <!--月售779-->
+            <TextView
+                android:id="@+id/tv_t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--起送20 免费配送-->
+            <TextView
+                android:id="@+id/tv_t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--34分钟 865米-->
+            <TextView
+                android:id="@+id/tv_t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--味道好，包装不错，下次还会点-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="30dp"
+                android:height="20dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="购买" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.appcompat.app.AlertController.RecycleListView>
